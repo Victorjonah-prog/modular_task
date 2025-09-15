@@ -24,9 +24,19 @@ class Array:
         self.data = new_list1 + [value] + new_list2
         return self.data
 
-    def pop(self):     
+    def pop(self): 
+           
         del self.data[-1]   
-        return self.data   
+        return self.data 
+        '''
+        i = 0
+        for element in self.data:
+            if i == index:
+                del self.data[i]
+            else:
+                pass
+            i +=1  
+        '''
                      
         
 
